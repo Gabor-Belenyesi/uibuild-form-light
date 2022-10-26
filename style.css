@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 36px;
+    color: #467745;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    width: 100% - 40px;
+    color: #467745;
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 100% - 40px;
+    color: #467745;
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: #467745;
+    margin-left: 20px;
+}
+
+button {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 21px;
+    width: 280px;
+    height: 80px;
+    color: #F7E4D4;
+    background-color: #467745;
+    letter-spacing: 0.2em;
+    margin: auto;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #F7E4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 520px) {
+    h1 {
+        font-size: 48px;
+        text-align: unset;
+        margin-top: 100px;
+    }
+
+    .input {
+        width: 480px;
+        height: 64px;
+    }
+
+    textarea {
+        width: 480px;
+        height: 120px;
+    }
+    body{
+        align-items: center;
+    }
+    div{
+        width: 540px;
+    }
+    p{
+        margin-left: 0;
+    }
+    .text{
+        flex-direction: row;
+    }
+}
